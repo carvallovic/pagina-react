@@ -6,6 +6,8 @@ import Inicio from './components/Inicio';
 import Nosotros from './components/Nosotros';
 import Login from './components/Login';
 import Servicios from './components/Servicios';
+import Contacto from './components/Contacto';
+import Registro from './components/Registro';
 
 const EnConstruccion = () => (
   <main>
@@ -27,6 +29,8 @@ function App() {
             <Route path="/nosotros" element={<Nosotros />} />
             <Route path="/login" element={<Login />} />            
             <Route path="/servicios" element={<Servicios />} />
+            <Route path="/contacto" element={<Contacto />} />
+            <Route path="/registro" element={<Registro />} />
             <Route path="*" element={<EnConstruccion />} />
           </Routes>
         </Container>
